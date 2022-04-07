@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" sizes="16x16" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Regular:wght@400&family=Romanesco&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+    <title>Le Fleuriste</title>
+
+    <script>
+        jQuery(function(){
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 200 ) { 
+                        $('#scrollUp').css('right','10px');
+                    } else { 
+                        $('#scrollUp').removeAttr( 'style' );
+                    }
+
+                });
+            });
+        });
+</script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li class="since">Fleuriste depuis 1998</li>
+                <img src="./assets/logo.png" alt="">
+                <a href="#histoire">Notre Histoire</a>
+                <a href="#produits">Nos Créations</a>
+            </ul>
+        </div>
+    </header>
+    <div class="banner">
+        <br>
+        <div class="text_banner1">"Aimer les fleurs,</div>
+        <div class="text_banner2">c'est une façon d'apprivoiser les peurs."</div>
+        <div class="text_banner3">- Kheira Chakor</div>
+    </div>
+
+
+    <div class="horaires">
+        <ul class="infos_conteneur">
+            <li class="info">St baldoph <br>
+                place des Tenettes <br>
+                04 55 88 66 33</li>
+            <li class="info">Horaires <br>
+                lundi au vendredi <br>
+                8h30 - 19h00 <br>
+                samedi <br>
+                8h30 - 20h</li>
+            <li class="info">Chambery <br>
+                en face de la gare <br>
+                04 99 33 55 11</li>
+
+        </ul>
+    </div>
+
+    <div class="story">
+        <div id="histoire">
+            Votre fleuriste local. <br> <br>
+
+            Bouquet composé, anniversaires, marriages ou autres événements ? <br>
+            Nous répondons présent ! <br>
+            Forts de notre éxperience depuis plus de 20 ans nous serons à la hauteur
+            de vos attentes.</div>
+        <img class="front_boutique" src="./assets/boutique.png" alt="" height="300px">
+    </div>
+
+
+
+    <div id="produits">
+
+        <h2>Nos Créations</h2>
+
+        <div class="corneto">
+            <div class="cone"><img src="./assets/spring.png" alt="" height="150px" width="150px">
+                <p>Le printemps</p>
+            </div>
+            <div class="cone"><img src="./assets/bouquetgourmand-removebg-preview.png" alt="" height="150px"
+                    width="150px">
+                <p>Le bouqet gourmand</p>
+            </div>
+            <div class="cone"><img src="./assets/lory-removebg-preview.png" alt="" height="150px" width="150px">
+                <p>Le Lory</p>
+            </div>
+            <div class="cone"><img src="./assets/passion-removebg-preview.png" alt="" height="150px" width="120px">
+                <p>La passion</p>
+            </div>
+
+            <div class="bouquets">
+                <div class="bouq"><img src="./assets/butterfly.png" alt="" height="150px" width="150px">
+                    <p>Le papillon</p>
+                </div>
+                <div class="bouq"><img src="./assets/sorry.png" alt="" height="150px" width="150px">
+                    <p>Le désolé</p>
+                </div>
+                <div class="bouq"><img src="./assets/walk.png" alt="" height="150px" width="150px">
+                    <p>La promenade</p>
+                </div>
+                <div class="bouq"><img src="./assets/who.png" alt="" height="150px" width="150px">
+                    <p>Vive la mariée</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="trio">
+                <div class="news">
+                    <h2>Newsletter</h2>
+                    <p>Rejoignez le club <br>
+
+                        Inscrivez vous pour recevoir notre newsletter
+                        et etre au courant de nos dernieres offres. <br>
+
+                        Renseignez votre adresse mail
+                        ____________ <img src="./assets/mail.png" alt="" width="25px">
+
+                    </p>
+                </div>
+                <div class="socia">
+                    <h2>Suivez Nous</h2> <img src="./assets/social.png" alt="" width="180px">
+                </div>
+                <div class="paiement">
+                    <h2>Paiement Securisé</h2> <img src="./assets/cb.png" alt="" width="180px">
+                </div>
+            </div>
+
+            <div class="subfoot">Copyright Eric.S &copy</div>
+        </footer>
+
+
+        <div id="scrollUp">
+            <a href="#top"><img src="./assets/to_top.png" /></a>
+        </div>
+
+</body>
+
+</html>
